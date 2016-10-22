@@ -16,7 +16,6 @@ public final Logger logger = Logger.getLogger("Minecraft");
 		this.logger.info(pdfFile.getName() + " is Enable!");
 		getServer().getPluginManager().registerEvents(this, this);
 	}
-	///this is my second commit!
 	public void onDisable(){
 		PluginDescriptionFile pdfFile = this.getDescription();
 		this.logger.info(pdfFile.getName() + " is Disable!");
