@@ -1,0 +1,5 @@
+name: MadezServerComunication
+main: serverComunication.serverMain
+version: 1.0
+description: Its a plugin
+autor: MikeMadez
